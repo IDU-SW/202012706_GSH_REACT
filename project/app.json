@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "project",
+    "slug": "project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/I.jpg",
+    "splash": {
+      "image": "./assets/I.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ex.ample",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA3xcAHd5neK7HNqmaPCR2Wx_OlPoIcNG8"
+        }
+      },
+      "adaptiveIcon": { 
+        "foregroundImage": "./assets/I.jpg",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
